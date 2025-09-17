@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="author" content="Eyad Othman">
+  <meta name="keywords" content="Portfolio, HTML, CSS, JavaScript">
+  <meta name="description" content="I am Eyad, A Front End Web Developer">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/svg+xml" href="favicon.svg">
+  <title>Eyad Othman - Portfolio</title>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+  <link href="css/style.css" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+</head>
+
+<body>
+  <!-- Navigation -->
+  <header>
+    <nav class="navbar" id="navbar">
+      <div class="container">
+        <div class="nav-sec">
+          <div class="logo">Portfolio</div>
+          <ul class="nav-links" id="navLinks">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+          <button class="menu-toggle" id="menuToggle">
+            <i class="fas fa-bars"></i>
+          </button>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="hero" id="home">
+    <div class="container">
+      <div class="hero-sec">
+        <div class="hero-content">
+          <h1>Hello, I'm Eyad</h1>
+          <p class="subtitle">Front End Web Developer</p>
+          <p>I create responsive and
+            scalable websites that
+            combine performance with
+            great user experience.</p>
+          <div class="cta-buttons">
+            <a href="#projects" class="btn btn-primary">
+              <i class="fas fa-code"></i>
+              View My Work
+            </a>
+            <a href="#contact" class="btn btn-secondary">
+              <i class="fas fa-envelope"></i>
+              Get In Touch
+            </a>
+          </div>
+        </div>
+        <div class="hero-image">
+          <div class="profile-card">
+            <img src="img/me.png" alt="Eyad Othman">
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section class="section about" id="about">
+    <div class="container">
+      <div class="section-title">
+        <h2>About Me</h2>
+        <p>Get to know more about my background, skills, and what drives my passion for development.</p>
+      </div>
+      <div class="about-content">
+        <div class="about-image">
+          <div class="about-card">
+            <i class="fa-brands fa-js"></i>
+          </div>
+        </div>
+        <div class="about-text">
+          <h3>Passionate Developer & Designer</h3>
+          <p>I am Eyad, a Front-End
+            Developer with 2+ years of
+            solid foundation in web
+            development and hands-on
+            experience in latest web
+            technologies and
+            frameworks.</p>
+          <p>I help freelance clients and
+            small businesses turn their
+            ideas into modern, reliable,
+            and user-friendly websites.</p>
+
+          <div class="skills-grid">
+            <div class="skill-item">
+              <i class="fab fa-html5"></i>
+              <h4>HTML5</h4>
+            </div>
+            <div class="skill-item">
+              <i class="fab fa-css3-alt"></i>
+              <h4>CSS3</h4>
+            </div>
+            <div class="skill-item">
+              <i class="fab fa-js-square"></i>
+              <h4>JavaScript</h4>
+            </div>
+            <div class="skill-item">
+              <i class="fab fa-react"></i>
+              <h4>React</h4>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Projects Section -->
+  <section class="section projects" id="projects">
+    <div class="container">
+      <div class="section-title">
+        <h2>Featured Projects</h2>
+        <p>Here are some of my recent projects.</p>
+      </div>
+      <div class="projects-grid">
+
+        <!-- First Project -->
+        <div class="project-card fade-in-up first">
+          <div class="project-image">
+            <img src="img/leon-design.png" alt="Leon Design">
+          </div>
+          <div class="project-container">
+            <div class="project-descrip">
+              <h3>Leon Design</h3>
+              <p>A Simple Agency Website.</p>
+            </div>
+            <div class="infos">
+              <div class="project-tags">
+                <span class="tag">HTML5</span>
+                <span class="tag">CSS3</span>
+              </div>
+              <div class="project-links">
+                <a href="https://theeyad.github.io/Leon-Design/" target="_blank">
+                  <i class="fas fa-external-link-alt"></i>
+                  Live Demo
+                </a>
+                <a href="https://github.com/theeyad/Leon-Design" target="_blank">
+                  <i class="fab fa-github"></i>
+                  Code
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+        <!-- Second Project -->
+        <div class="project-card fade-in-up second">
+          <div class="project-image">
+            <img src="img/kasper-design.png" alt="Kasper Design">
+          </div>
+          <div class="project-container">
+            <div class="project-descrip">
+              <h3>Kasper Design</h3>
+              <p>A modern, multi-section single page Website.</p>
+            </div>
+            <div class="infos">
+              <div class="project-tags">
+                <span class="tag">HTML5</span>
+                <span class="tag">CSS3</span>
+              </div>
+              <div class="project-links">
+                <a href="https://theeyad.github.io/Kasper-Design/" target="_blank">
+                  <i class="fas fa-external-link-alt"></i>
+                  Live Demo
+                </a>
+                <a href="https://github.com/theeyad/Kasper-Design" target="_blank">
+                  <i class="fab fa-github"></i>
+                  Code
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Third Project -->
+        <div class="project-card fade-in-up third">
+          <div class="project-image">
+            <img src="img/client's-portfolio.png" alt="Client's Portfolio">
+          </div>
+          <div class="project-container">
+            <div class="project-descrip">
+              <h3>Client's Portfolio</h3>
+              <p>A dark, modern single page Portfolio Website for one of my clients.</p>
+            </div>
+            <div class="infos">
+              <div class="project-tags">
+                <span class="tag">HTML5</span>
+                <span class="tag">CSS3</span>
+                <span class="tag">JavaScript</span>
+              </div>
+              <div class="project-links">
+                <a href="https://theeyad.github.io/elaph-othman-portfolio/" target="_blank">
+                  <i class="fas fa-external-link-alt"></i>
+                  Live Demo
+                </a>
+                <a href="https://github.com/theeyad/elaph-othman-portfolio" target="_blank">
+                  <i class="fab fa-github"></i>
+                  Code
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section class="section contact" id="contact">
+    <div class="container">
+      <div class="section-title">
+        <h2>Let's Work Together</h2>
+        <p>Have a project in mind? I'd love to hear from you. Let's create something amazing together!</p>
+      </div>
+      <div class="contact-content">
+        <div class="contact-info">
+          <h3>Get In Touch</h3>
+          <p>I'm always open to discussing new opportunities, creative ideas, or potential collaborations. Feel free to
+            reach out through any of the following methods:</p>
+
+          <div class="contact-methods">
+            <a href="mailto:eyadosman35@gmail.com" class="contact-method">
+              <i class="fas fa-envelope"></i>
+              <div>
+                <strong>Email</strong>
+                <p>eyadosman35@gmail.com</p>
+              </div>
+            </a>
+            <a href="tel:+20 1150440572" class="contact-method">
+              <i class="fas fa-phone"></i>
+              <div>
+                <strong>Phone</strong>
+                <p>+20 1150440572</p>
+              </div>
+            </a>
+            <a href="https://www.linkedin.com/in/eyad-othman/" target="_blank" class="contact-method">
+              <i class="fab fa-linkedin"></i>
+              <div>
+                <strong>LinkedIn</strong>
+                <p>Connect with me professionally</p>
+              </div>
+            </a>
+          </div>
+        </div>
+
+        <form class="contact-form">
+          <div class="form-group">
+            <label for="name">Full Name</label>
+            <input type="text" id="name" name="name" required>
+          </div>
+          <div class="form-group">
+            <label for="email">Email Address</label>
+            <input type="email" id="email" name="email" required>
+          </div>
+          <div class="form-group">
+            <label for="subject">Subject</label>
+            <input type="text" id="subject" name="subject" required>
+          </div>
+          <div class="form-group">
+            <label for="message">Message</label>
+            <textarea id="message" name="message" required placeholder="Tell me about your project..."></textarea>
+          </div>
+          <button type="submit" class="btn btn-primary">
+            <i class="fas fa-paper-plane"></i>
+            Send Message
+          </button>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer Section -->
+  <footer class="footer">
+    &copy; 2025 <span>Eyad</span> All rights reserved
+  </footer>
+
+  <script src="js/script.js"></script>
+</body>
+
+</html>
