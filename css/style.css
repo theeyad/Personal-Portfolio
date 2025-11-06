@@ -260,6 +260,10 @@ header {
     transition: all 0.3s ease;
   }
 
+  .nav-links li:last-child a {
+    border-bottom: none;
+  }
+
   .nav-links a:hover {
     background: var(--hover);
     transform: translateX(10px);
